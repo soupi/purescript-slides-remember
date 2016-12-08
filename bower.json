@@ -1,0 +1,31 @@
+{
+  "name": "purescript-slides-remember",
+  "description": "remember the last slide you saw",
+  "authors": [
+    "Gil Mizrahi <soupiral@gmail.com>"
+  ],
+  "repository": {                                                          
+    "type": "git",                                                         
+    "url": "git://github.com/soupi/purescript-slides-remember.git"            
+  },
+
+  "license": "BSD-3-Clause",
+  "version": "0.1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "latest",
+    "purescript-slides": "latest",
+    "purescript-localstorage": "^3.0.1",
+    "purescript-aff": "^2.0.2"
+  },
+  "resolutions": {
+    "purescript-dom": "^3.1.0"
+  }
+}
